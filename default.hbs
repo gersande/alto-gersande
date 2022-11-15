@@ -56,12 +56,12 @@
                     <button class="gh-search gh-icon-btn" data-ghost-search>{{> "icons/search"}}</button>
                     {{#unless @member}}
                         {{#unless @site.members_invite_only}}
-                            <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signup" data-portal="signup">Subscribe</a>
+                            <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signup" data-portal="signup">{{t "Subscribe"}}</a>
                         {{else}}
-                            <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signin" data-portal="signin">Login</a>
+                            <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signin" data-portal="signin">{{t "Login"}}</a>
                         {{/unless}}
                     {{else}}
-                        <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/account" data-portal="account">Account</a>
+                        <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/account" data-portal="account">{{t "Account"}}</a>
                     {{/unless}}
                 {{/unless}}
             </div>
@@ -87,7 +87,7 @@
                 {{navigation type="secondary"}}
             </nav>
             <div class="gh-powered-by">
-                <a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a>
+                <a href="https://ghost.org/" target="_blank" rel="noopener">{{t "Powered by Ghost"}}</a>
             </div>
         </div>
     </footer>
