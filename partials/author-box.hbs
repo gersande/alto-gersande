@@ -12,7 +12,13 @@
         </div>
 
         <div class="author-wrapper">
-            <h4 class="author-name"><a href="{{url}}">{{name}}</a></h4>
+            <h4 class="author-name">
+                {{#if @custom.change_author_link}}
+                <a href="{{ @custom.changed_author_link }}">{{name}}</a>
+                {{else}}
+                <a href="{{url}}">{{name}}</a>
+                {{/if}}
+            </h4>
             {{#if bio}}
                 <div class="author-bio">{{bio}}</div>
             {{/if}}

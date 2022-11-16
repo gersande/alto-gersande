@@ -70,15 +70,40 @@
                 "default": true,
                 "group": "homepage"
             },
+            "show_translate_button": {
+                "type": "boolean",
+                "default": true,
+                "group": "homepage"
+            },
+            "translation_url": {
+                "type": "text",
+                "default": "Please input valid url",
+                "group": "homepage"
+            },
             "show_author": {
                 "type": "boolean",
                 "default": true,
                 "group": "post"
             },
+            "change_author_link": {
+                "type": "boolean",
+                "default": true,
+                "group": "homepage"
+            },
+            "changed_author_link": {
+                "type": "text",
+                "default": "https://gersande.com/blog/about",
+                "group": "homepage"
+            },
             "show_related_posts": {
                 "type": "boolean",
                 "default": true,
                 "group": "post"
+            },
+            "start_date_of_blog": {
+                "type": "text",
+                "default": "2010",
+                "group": "homepage"
             }
         }
     },
