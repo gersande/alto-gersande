@@ -1,0 +1,17 @@
+{{{html}}}
+<aside class="gh-post-upgrade-cta">
+    <div class="gh-post-upgrade-cta-content" style="background-color: {{accentColor}}">
+        {{#has visibility="paid"}}
+            <h2>{{t "This post is for patrons only." }}</h2>
+        {{/has}}
+        {{#has visibility="members"}}
+            <h2>{{t "This post is for subscribers only." }}</h2>
+        {{/has}}
+        {{#if @member}}
+            <a class="gh-btn" data-portal="account/plans" style="color:{{accentColor}}">{{t "Upgrade your account"}}</a>
+        {{else}}
+            <a class="gh-btn" data-portal="signup" style="color:{{accentColor}}">{{t "Become a Patron" }}</a>
+            <p><small>Already have an account? <a data-portal="signin">{{t "Sign in to unlock." }}</a></small></p>
+        {{/if}}
+    </div>
+</aside>
