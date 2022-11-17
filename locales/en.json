@@ -1,5 +1,8 @@
 {
-    "Powered by Ghost": "Powered by Ghost",
+    "This blog runs on": "This blog runs on",
+    "Blog theme is": "Blog theme is",
+    "Comments system by": "Comments system by",
+    "Privacy-focused analytics by": "Privacy-focused analytics by" ,
     "Subscribe": "Subscribe",
     "Login": "Login",
     "Account": "Account",
@@ -12,6 +15,7 @@
     "This post is for patrons only.": "This post is for patrons only.",
     "This post is for subscribers only.": "This post is for subscribers only.",
     "Upgrade your account": "Upgrade your account",
+    "Become a Patron": "Become a Patron",
     "Already a patron?": "Already a patron?",
     "Sign in to unlock.": "Sign in to unlock."
 }

@@ -1,5 +1,8 @@
 {
-    "Powered by Ghost": "Propulsé avec Ghost",
+    "This blog runs on": "Ce blog est propulsé avec",
+    "Blog theme is": "Le thème est",
+    "Comments system by": "Le système de commentaire est",
+    "Privacy-focused analytics by": "Les analytiques sont capturées par",
     "Subscribe": "S'abonner",
     "Login": "Se connecter",
     "Account": "Compte",
@@ -12,6 +15,7 @@
     "This post is for patrons only.": "Cette page est reservée aux mécènes du blog.",
     "This post is for subscribers only.": "Cette page est reservée aux abonné.e.s du blog.",
     "Upgrade your account": "Devenir mécène",
+    "Become a Patron": "Devenir mécène",
     "Already a patron?": "Déjà mécène?",
     "Sign in to unlock.": "Connecte-toi pour déverrouiller cette page."
 }

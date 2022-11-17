@@ -97,14 +97,23 @@
     <footer class="gh-foot gh-outer">
         <div class="gh-foot-inner gh-inner">
             <div class="gh-copyright">
-                {{@site.title}} {{ @custom.start_date_of_blog }}-{{date format="YYYY"}}
+                {{@site.title}}, {{ @custom.start_date_of_blog }}-{{date format="YYYY"}}
             </div>
             <nav class="gh-foot-menu">
                 {{navigation type="secondary"}}
             </nav>
             <div class="gh-powered-by">
-                <!--a href="https://ghost.org/" target="_blank" rel="noopener">{{t "Powered by Ghost"}}</a--> 
-                <a href="{{@site.url}}/rss">{{> "icons/rss"}}</a>
+                <a href="{{@site.url}}/rss">RSS {{> "icons/rss"}}</a>
+            </div>
+        </div>
+        <div class="gh-foot-inner gh-inner">
+            <div class="gh-copyright">
+            </div>
+            <div class="gh-powered-by">
+                {{t "This blog runs on" }} <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>. {{t "Blog theme is" }} <a href="https://github.com/gersande/contralto" target="_blank" rel="noopener">Contralto</a>. {{t "Comments system by"}} <a href="https://github.com/posativ/isso" target="_blank" rel="noopener">Isso</a>. {{t "Privacy-focused analytics by" }} <a href="https://usefathom.com/ref/YRBYXX" target="_blank" rel="noopener">Fathom</a>. 
+            </div>
+            <div class="gh-powered-by">
+                
             </div>
         </div>
     </footer>
