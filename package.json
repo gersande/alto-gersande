@@ -104,6 +104,16 @@
                 "type": "text",
                 "default": "2010",
                 "group": "homepage"
+            },
+            "author_pronouns": {
+                "type": "text",
+                "default": "they/them/their",
+                "group": "homepage"
+            },
+            "author_pronouns_link": {
+                "type": "text",
+                "default": "",
+                "group": "homepage"
             }
         }
     },
